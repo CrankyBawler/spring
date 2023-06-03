@@ -7,7 +7,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
-@SessionScope
 
 public class CartServiceImpl implements CartService {
 
