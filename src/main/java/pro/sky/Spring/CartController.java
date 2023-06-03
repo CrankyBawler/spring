@@ -11,11 +11,11 @@ import java.util.Set;
 
 @RestController
 @RequestMapping("/store/order")
-public class ShoppingCartController {
+public class CartController {
 
-    private final ShoppingCartService service;
+    private final CartService service;
 
-    public ShoppingCartController(ShoppingCartService service) {
+    public CartController(CartService service) {
         this.service = service;
     }
     @GetMapping(path = "/add")
